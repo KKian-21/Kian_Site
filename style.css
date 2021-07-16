@@ -130,6 +130,11 @@ h4 {
     color: #583dd1;
 }
 
+
+/* h4 {
+    font-size: x-large;
+} */
+
 #heading {
     font-weight: 400;
     color: #583dd1;
@@ -465,9 +470,10 @@ button.bg-dark:hover {
     transition: 0.4s;
 }
 
-#angebotKurse:hover {
+
+/* #angebotKurse:hover {
     transform: scale(1.15);
-}
+} */
 
 .uberPic {
     transition: 0.4s;
