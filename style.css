@@ -64,8 +64,36 @@ body::-webkit-scrollbar-thumb {
     width: 7em;
     position: absolute;
     left: -34px;
-    top: -58px;
+    top: -296px;
     transition: 0.4s;
+    margin-top: 10em;
+}
+.logo1 {
+    height: 7em;
+    width: 7em;
+    position: absolute;
+    left: -34px;
+    top: -100px;
+    transition: 0.4s;
+    margin-top: 10em;
+}
+.logo2 {
+    height: 7em;
+    width: 7em;
+    position: absolute;
+    left: 10px;
+    top: -102px;
+    transition: 0.4s;
+    margin-top: 10em;
+}
+.logo3 {
+    height: 7em;
+    width: 7em;
+    position: absolute;
+    left: 55px;
+    top: -102px;
+    transition: 0.4s;
+    margin-top: 10em;
 }
 
 .logofooter {
@@ -294,7 +322,25 @@ button.bg-dark:hover {
     .logo {
         height: 14em;
         width: 14em;
-        top: 0px;
+        top: -275px;
+    }
+    .logo1 {
+        height: 14em;
+        width: 14em;
+        left: -34px;
+        top: -150px;
+    }
+    .logo2 {
+        height: 14em;
+        width: 14em;
+        left: 50px;
+        top: -152px;
+    }
+    .logo3 {
+        height: 14em;
+        width: 14em;
+        left: 135px;
+        top: -152px;
     }
     .logoUberKurse {
         top: -20px !important;
@@ -367,8 +413,24 @@ button.bg-dark:hover {
 
 @media only screen and (min-width: 1400px) {
     .logo {
-        top: 0px !important;
-        left: 0px !important;
+        height: 20em;
+        width: 20em;
+        top: -275px !important;
+    }
+    .logo1 {
+        top: -120px;
+        left: 300px;
+    }
+    .logo2 {
+        top: -118px;
+        left: 450px;
+    }
+    .logo3 {
+        top: -124px;
+        left: 600px;
+    }
+    .logoContainer{
+        margin-top: 5em !important;
     }
     .sectionImgBig {
         padding: 0.5rem 14rem 3rem 14rem !important;
@@ -387,11 +449,7 @@ button.bg-dark:hover {
     #intro {
         background-position: 55% 67%;
     }
-    .logo {
-        height: 20em;
-        width: 20em;
-        top: 0px !important;
-    }
+
     .sectionImgBig {
         padding: 0.5rem 16rem 3rem 16rem !important;
     }
@@ -406,7 +464,7 @@ button.bg-dark:hover {
         margin-left: 5rem;
     }
     .logofooter {
-        top: -60px;
+        top: -25px;
         left: -105px;
     }
     .sectionImgBig {
@@ -490,6 +548,21 @@ button.bg-dark:hover {
 
 #textKurs:hover {
     transform: scale(1.1);
+}
+
+#hoverIconServ{
+    transition: 0.4s;
+}
+#hoverPicsServ{
+    transition: 0.4s;
+}
+#hoverIconServ:hover{
+    transform: scale(1.3);
+    transition: 0.4s;
+}
+#hoverPicsServ:hover{
+    transform: scale(1.1);
+    transition: 0.4s;
 }
 
 
