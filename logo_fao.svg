@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 1920 1080" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(0.707107,0.707107,-0.707107,0.707107,704.992,-438.225)">
+        <path d="M1092.84,526.208C1092.84,467.882 1045.49,420.529 987.16,420.529L775.801,420.529C717.475,420.529 670.122,467.882 670.122,526.208L670.122,737.567C670.122,795.894 717.475,843.247 775.801,843.247L987.16,843.247C1045.49,843.247 1092.84,795.894 1092.84,737.567L1092.84,526.208Z" style="fill:rgb(232,81,35);"/>
+    </g>
+    <g transform="matrix(1.14208,0,0,1.0125,-119.51,-12.2083)">
+        <rect x="755.41" y="559.63" width="247.742" height="216.605" style="fill:white;"/>
+    </g>
+    <g transform="matrix(1,0,0,1,-0.322351,44.559)">
+        <rect x="762.179" y="529.847" width="245.711" height="216.605" style="fill:rgb(232,81,35);"/>
+    </g>
+    <g transform="matrix(0.757675,0,0,0.757675,890.532,518.001)">
+        <text x="191.773px" y="416.671px" style="font-family:'Archicoco', sans-serif;font-size:174.064px;fill:rgb(230,26,26);">F<tspan x="291.511px 423.8px " y="416.671px 416.671px ">AO</tspan></text>
+    </g>
+</svg>
