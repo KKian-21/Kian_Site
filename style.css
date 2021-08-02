@@ -72,7 +72,7 @@ body::-webkit-scrollbar-thumb {
     height: 7em;
     width: 7em;
     position: absolute;
-    left: -34px;
+    left: -42px;
     top: -100px;
     transition: 0.4s;
     margin-top: 10em;
@@ -204,7 +204,7 @@ h4 {
 }
 
 
-/* Kurse */
+/* Service */
 
 #contentKurse {
     margin-top: 12vh;
@@ -225,6 +225,35 @@ h4 {
 
 #angebotKurse {
     text-align: center;
+}
+
+.vanilla{
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    background-image: linear-gradient(330deg, #f6d365, #583dd1);
+    margin-top: 5em;
+    transform-style: preserve-3d;
+    transform: perspective(1000px);
+}
+.innerPara {
+    height: 50%;
+    width: 50%;
+    background: rgba( 255, 255, 255, 0.05 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    box-shadow: 0 0 50px 0;
+    transform: translateZ(20px);
+}
+.vanillaText{
+    text-align: center;
+    line-height: 150px;
 }
 
 
@@ -377,6 +406,10 @@ button.bg-dark:hover {
         top: 30px;
         left: 80px;
     }
+    .vanilla{
+        width: 250px;
+        height: 250px;
+    }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -435,6 +468,10 @@ button.bg-dark:hover {
     .sectionImgBig {
         padding: 0.5rem 14rem 3rem 14rem !important;
     }
+    .vanilla{
+        width: 350px;
+        height: 350px;
+    }
 }
 
 @media only screen and (min-width: 1920px) {
@@ -452,6 +489,14 @@ button.bg-dark:hover {
 
     .sectionImgBig {
         padding: 0.5rem 16rem 3rem 16rem !important;
+    }
+    /* Kontakt */
+
+    .kontaktIcon{
+        height: 42px;
+        width: 42px;
+        margin-bottom: 1em !important;
+        margin-top: 1em !important;
     }
 }
 

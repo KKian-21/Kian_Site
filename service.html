@@ -86,6 +86,11 @@
                                 </p>
 
                             </div>
+                            <div class="vanilla bg-linear data-tilt">
+                                <div class="innerPara">
+                                    <p class="vanillaText">Animation</p>
+                                </div>
+                            </div>
                         </div>
                     </section>
 
@@ -248,12 +253,6 @@
                             
                     </div>
                 </section>
-
-
-
-
-
-
                 
             </div>
         </main>
@@ -328,6 +327,14 @@
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="" crossorigin="anonymous"></script>
         <script src="js/bootstrap.min.js" integrity="" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="vanilla-tilt.js"></script>
+            <script type="text/javascript">
+                VanillaTilt.init(document.querySelector(".vanilla"), {
+                    max: 20,
+                    speed: 800,
+                    speed: 1000,
+                });
+            </script>
 
 </body>
 
