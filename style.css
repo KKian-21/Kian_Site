@@ -126,7 +126,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 #fullPageContent {
-    top: 30%;
+    top: 35%;
     position: absolute;
 }
 
@@ -165,14 +165,19 @@ h4 {
 } */
 
 #heading {
-    font-weight: 400;
+    /* font-weight: bold; */
     color: #583dd1;
+    /* font-family: 'DEUX'; */
+    font-family: 'Lobster';
+
+    font-size: 180%;
     /* text-shadow: 3px 2px 0 #f7c524; */
 }
 
+
 .typed {
-    font-size: larger;
-    font-family: 'Lobster', cursive;
+    font-size: 180%;
+    font-family: 'Amsterdam Laviera';
 }
 
 #startButton {
@@ -249,11 +254,11 @@ h4 {
     top: 25%;
     left: 25%;
     box-shadow: 0 0 50px 0;
-    transform: translateZ(20px);
+    transform: translateZ(40px);
 }
 .vanillaText{
     text-align: center;
-    line-height: 150px;
+    line-height: 100px;
 }
 
 
@@ -314,7 +319,7 @@ button.bg-dark:hover {
 
 @media only screen and (min-width: 300px) {
     #heading {
-        font-size: 250%;
+        font-size: 210%;
     }
 }
 
@@ -327,6 +332,9 @@ button.bg-dark:hover {
 @media only screen and (min-width: 767px) {
     #heading {
         font-size: 400%;
+    }
+    #fullPageContent {
+        top: 28%;
     }
     /* Darunter Transparenz möglich wenn Scroll Effekte möglich
     sonst kein passender Layer im Hintergrund der Navigation  */
@@ -389,6 +397,9 @@ button.bg-dark:hover {
 }
 
 @media only screen and (min-width: 1000px) {
+    #heading {
+        font-size: 450%;
+    }
     #footerUber {
         top: 100%;
         position: sticky;
@@ -441,6 +452,9 @@ button.bg-dark:hover {
     .copyR {
         top: 30px;
         left: 107px;
+    }
+    .vanillaText{
+        line-height: 150px;
     }
 }
 
@@ -553,10 +567,10 @@ button.bg-dark:hover {
     transition: 0.4s;
 }
 
-#heading:hover {
+/* #heading:hover {
     transition: 0.8s;
     transform: scale(1.07);
-}
+} */
 
 .bestPictures:hover {
     transform: scale(1.1);
