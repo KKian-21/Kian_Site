@@ -26,11 +26,12 @@ body::-webkit-scrollbar-thumb {
     background: #583dd1;
 }
 .typed {
-    font-size: 180%;
     /* font-family: 'Zen Dots', cursive; */
     /* font-family: 'Homemade Apple', cursive; */
     /* font-family: 'Zen Tokyo Zoo', cursive; */
-    font-family: 'Lobster', cursive;
+    /* font-family: 'Lobster', cursive;
+     */
+     font-family: 'Amsterdam Laviera';
 
 }
 
@@ -319,7 +320,7 @@ button.bg-dark:hover {
         font-size: 210%;
     }
     .typed {
-
+        font-size: 155%;
     }
 }
 
@@ -332,6 +333,9 @@ button.bg-dark:hover {
 @media only screen and (min-width: 767px) {
     #heading {
         font-size: 400%;
+    }
+    .typed {
+        font-size: 180%;
     }
     #fullPageContent {
         top: 28%;
