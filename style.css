@@ -25,6 +25,10 @@ body::-webkit-scrollbar-track {
 body::-webkit-scrollbar-thumb {
     background: #583dd1;
 }
+.typed {
+    font-size: 180%;
+    font-family: 'Amsterdam Laviera';
+}
 
 #intro {
     background: url(0,4.jpg) no-repeat center;
@@ -175,10 +179,7 @@ h4 {
 }
 
 
-.typed {
-    font-size: 180%;
-    font-family: 'Amsterdam Laviera';
-}
+
 
 #startButton {
     background-image: linear-gradient(120deg, #a233b1, #583dd1);
@@ -312,6 +313,9 @@ button.bg-dark:hover {
 @media only screen and (min-width: 300px) {
     #heading {
         font-size: 210%;
+    }
+    .typed {
+        font-family: 'Amsterdam Laviera';
     }
 }
 
