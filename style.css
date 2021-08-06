@@ -27,7 +27,9 @@ body::-webkit-scrollbar-thumb {
 }
 .typed {
     font-size: 180%;
-    font-family: 'Amsterdam Laviera';
+    /* font-family: 'Zen Dots', cursive; */
+    /* font-family: 'Homemade Apple', cursive; */
+    font-family: 'Zen Tokyo Zoo', cursive;
 }
 
 #intro {
@@ -172,7 +174,7 @@ h4 {
     /* font-weight: bold; */
     color: #583dd1;
     /* font-family: 'DEUX'; */
-    font-family: 'Lobster';
+    /* font-family: 'Lobster'; */
 
     font-size: 180%;
     /* text-shadow: 3px 2px 0 #f7c524; */
@@ -315,7 +317,7 @@ button.bg-dark:hover {
         font-size: 210%;
     }
     .typed {
-        font-family: 'Lobster';
+
     }
 }
 
