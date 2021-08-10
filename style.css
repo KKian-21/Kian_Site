@@ -29,9 +29,10 @@ body::-webkit-scrollbar-thumb {
     /* font-family: 'Zen Dots', cursive; */
     /* font-family: 'Homemade Apple', cursive; */
     /* font-family: 'Zen Tokyo Zoo', cursive; */
-    /* font-family: 'Lobster', cursive;
-     */
-     font-family: 'Amsterdam Laviera';
+    /* font-family: 'Lobster', cursive; */
+    font-family: 'Zen Dots';
+     
+     /* font-family: 'Amsterdam Laviera'; */
 
 }
 
@@ -168,6 +169,11 @@ h4 {
     color: #583dd1;
 }
 
+.circlePic{
+    background-color: #000000;
+    border-radius: 50%;
+}
+
 
 /* h4 {
     font-size: x-large;
@@ -226,7 +232,7 @@ h4 {
     font-size: xxx-large;
 }
 
-#textKurs {
+#textHome {
     text-align: center;
 }
 
@@ -262,7 +268,7 @@ h4 {
 
 /* Über Uns */
 
-#pictureUber {
+#pictureHome {
     padding: 10%;
 }
 
@@ -354,7 +360,7 @@ button.bg-dark:hover {
     .bd-placeholder-img-lg {
         font-size: 3.5rem;
     }
-    .uberPic {
+    .homePic {
         margin-top: 3rem;
     }
     .scrollDownIconBox {
@@ -443,13 +449,13 @@ button.bg-dark:hover {
     #slogan {
         font-size: xx-large;
     }
-    .uberPic {
+    .homePic {
         margin-top: 1rem;
     }
     .sectionImgBig {
         padding: 1.5rem 10rem 3rem 10rem !important;
     }
-    .containerUberPic {
+    .containerhomePic {
         padding: 2rem 5rem 0rem 5rem !important;
     }
     .contentKursPic {
@@ -528,7 +534,7 @@ button.bg-dark:hover {
     .row {
         margin-top: 7% !important;
     }
-    .containerUberPic {
+    .containerhomePic {
         padding: 2rem 3rem 0rem 3rem !important;
         margin-left: 5rem;
     }
@@ -603,21 +609,21 @@ button.bg-dark:hover {
     transform: scale(1.15);
 } */
 
-.uberPic {
+.homePic {
     transition: 0.4s;
 }
 
-.uberPic:hover {
+/* .homePic:hover {
     transform: scale(1.1);
-}
+} */
 
-#textKurs {
+#textHome {
     transition: 0.4s;
 }
 
-#textKurs:hover {
+/* #textHome:hover {
     transform: scale(1.1);
-}
+} */
 
 #hoverIconServ{
     transition: 0.4s;
