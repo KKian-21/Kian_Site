@@ -39,11 +39,18 @@ body::-webkit-scrollbar-thumb {
     /* font-family: 'Zen Tokyo Zoo', cursive; */
     /* font-family: 'Lobster', cursive; */
     /* font-family: 'Zen Dots'; */
-    /* font-weight: 500; */
-     
-     font-family: 'Amsterdam Laviera';
-     /* font-family: 'DEUX'; */
+    /* font-family: 'DEUX'; */
 
+
+
+ /* Dont bold creative fonts      */
+     font-family: 'Amsterdam Laviera';
+ 
+
+}
+.name{
+    font-family: 'Amsterdam Laviera';
+    font-size: xxx-large;
 }
 
 #intro {
@@ -364,7 +371,7 @@ button.bg-dark:hover {
         font-size: 320%;
     }
     .typed {
-        font-size: 150%;
+        font-size: 220%;
         margin-left: 1rem;
     }
     #fullPageContent {
@@ -435,8 +442,7 @@ button.bg-dark:hover {
         font-size: 320%;
     }
     .typed {
-        font-size: 160%;
-        margin-left: 2rem;
+        font-size: 240%;
     }
     #footerUber {
         top: 100%;
@@ -470,6 +476,9 @@ button.bg-dark:hover {
 @media only screen and (min-width: 1200px) {
     #heading {
         font-size: 440%;
+    }
+    .typed {
+        font-size: 240%;
     }
     p {
         font-size: larger;
@@ -533,6 +542,10 @@ button.bg-dark:hover {
 }
 
 @media only screen and (min-width: 1920px) {
+    .typed {
+        font-size: 260%;
+        margin-left: 2rem;
+    }
     #footerUber {
         top: 100%;
         position: sticky;
