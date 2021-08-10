@@ -27,7 +27,7 @@ body::-webkit-scrollbar-thumb {
 }
 @font-face {
     font-family: "Amsterdam Laviera";
-    src: url("C:/Users/kianf/Documents/Kian_Site/fonts/Amsterdam/Amsterdam Laviera.ttf");
+    src: url("/fonts/Amsterdam/Amsterdam Laviera.ttf");
 }
 .typed {
     /* font-family: 'Zen Dots', cursive; */
