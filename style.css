@@ -50,7 +50,7 @@ body::-webkit-scrollbar-thumb {
 }
 .name{
     font-family: 'Amsterdam Laviera';
-    font-size: xxx-large;
+    font-size: xx-large;
 }
 
 #intro {
@@ -353,10 +353,10 @@ button.bg-dark:hover {
 
 @media only screen and (min-width: 360px) {
     #heading {
-        font-size: 200%;
+        font-size: 190%;
     }
     .typed {
-        font-size: 200%;
+        font-size: 190%;
     }
 }
 
@@ -443,6 +443,9 @@ button.bg-dark:hover {
     }
     .typed {
         font-size: 240%;
+    }
+    .name{
+        font-size: xxx-large;
     }
     #footerUber {
         top: 100%;
