@@ -26,17 +26,17 @@ body::-webkit-scrollbar-thumb {
     background: #583dd1;
 }
 @font-face {
-    font-family: "myFirstFont";
-    src: url("/Users/kianf\OneDrive\Dokumente\Projekte\Kian_Site");
+    font-family: "Amsterdam Laviera";
+    src: url("C:\Users\kianf\Documents\Kian_Site\fonts\Amsterdam.ttf");
 }
 .typed {
     /* font-family: 'Zen Dots', cursive; */
     /* font-family: 'Homemade Apple', cursive; */
     /* font-family: 'Zen Tokyo Zoo', cursive; */
     /* font-family: 'Lobster', cursive; */
-    font-family: 'Zen Dots';
+    /* font-family: 'Zen Dots'; */
      
-     /* font-family: 'Amsterdam Laviera'; */
+     font-family: 'Amsterdam Laviera';
 
 }
 
