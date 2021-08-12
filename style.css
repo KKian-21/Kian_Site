@@ -9,7 +9,6 @@ html {
     background-color: #000000;
     overflow-x: hidden;
 }
-
 body {
     background-color: black;
 }
@@ -614,12 +613,12 @@ button.bg-dark:hover {
     }
 }
 
-#fullPageContent,
+/* #fullPageContent,
 #kurseContent,
 .uberContent,
 .preiseContent {
     animation: fadeIn 2s forwards;
-}
+} */
 
 .nav-link:hover {
     text-decoration: underline;

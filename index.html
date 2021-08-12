@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="de">
+<html lang="de" class="sr">
 
 <head>
     <!-- Required meta tags -->
@@ -8,6 +8,8 @@
     <meta property="og:image" content="home.jpg" />
     <meta property="og:title" content="KK-Designer" />
     <meta property="og:description" content="Projekte" />
+    <meta name="description" content="Webdesign">
+
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css" integrity="" crossorigin="anonymous" />
@@ -19,7 +21,7 @@
     <link href='https://fonts.googleapis.com/css?family=Zen Dots' rel='stylesheet'>
 
     <title>KK Webdesign</title>
-    <meta name="description" content="Webdesign">
+    
 
     <!-- Custom styles for this template -->
     <link href="style.css" rel="stylesheet">
@@ -81,13 +83,12 @@
         </nav>
     
         <div id="intro">
-            <div class="container fluid full-bg-image ">
+            <div class="container fluid full-bg-image fullPageContent ">
                 <div class="full-bg-img mt-6 p-4" id="fullPageContent">
-                    <h2 class="font-bold" id="heading">I am <span class="typed"></span></h2>
-                    <!-- <h4 class="text-white font-weight-normal" id="slogan">Fetic</h4> -->
+                    <h2 class="font-bold" id="heading" class="heading">I am <span class="typed"></span></h2>
                     <a href="kurse.html" type="button" id="startButton" class="btn btn-lg mt-5">Mehr Lesen</a>
                 </div>
-                <img src="img/beaches.jpg" class="img-fluid mt-7">
+                <img src="img/beaches.jpg" class="img-fluid mt-7 homeStartPic">
             </div>
         </header>
         </div>
@@ -219,12 +220,9 @@
             startDelay: 1000,
         });
     </script>
-    <script>
-        window.addEventListener('scroll', () => {
-            const scrolled = window.scrollY;
-            console.log(scrolled)
-        })
-    </script>
+    <script src="js/scrollreveal.min.js"></script>
+    <script src="js/main.js"></script>
+
 
 
 
