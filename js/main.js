@@ -5,20 +5,22 @@ const sr = ScrollReveal({
 })
 
 
-sr.reveal(`.fullPageContent,
-            .serviceContent
-            `,{
-    origin: 'top',
-    interval: 100,
-})
+// sr.reveal(`.fullPageContent,
+//             .serviceContent
+//             `,{
+//     origin: 'top',
+//     interval: 100,
+// })
 
 sr.reveal(`.uberContent, 
-.contentKursPic`,
+        .webAngebot,
+        .printAngebot`,
 {
     origin: 'left',
 })
 
-sr.reveal(`.contentKursPic`,{
+sr.reveal(`.logoAngebot
+        `,{
     origin: 'right',
     interval: 100,
 
