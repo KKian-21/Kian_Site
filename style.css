@@ -634,8 +634,9 @@ button.bg-dark:hover {
 } */
 
 .nav-link:hover {
-    text-decoration: underline;
-    padding-bottom: 2px;
+    /* text-decoration: underline; */
+    /* padding-bottom: 2px; */
+    transform: scale(1.1);
 }
 
 
