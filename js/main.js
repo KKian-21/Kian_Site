@@ -28,10 +28,10 @@ for (var i = 0; i < pathEls.length; i++) {
   pathEl.setAttribute('stroke-dashoffset', offset);
   anime({
     targets: pathEl,
-    strokeDashoffset: [offset, 0],
+    strokeDashoffset: [offset, 2000],
     duration: anime.random(1000, 3000),
-    delay: anime.random(0, 0),
-    // loop: true,
+    delay: anime.random(1000, 100),
+    loop: 3,
     direction: 'alternate',
     easing: 'easeInOutSine',
     autoplay: true
@@ -53,6 +53,9 @@ for (var i = 0; i < letterEls.length; i++) {
     // loop: true
   });
 }
+
+var elemets = document.querySelector('svg').children;
+
 
 
 
