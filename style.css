@@ -123,9 +123,12 @@ body::-webkit-scrollbar-thumb {
 }
 
 .logofooter {
-    position: absolute;
+    position: relative;
     top: -140px;
-    left: 39px;
+    left: 80px;
+    width: 12em;
+    height: 12em;
+
 }
 
 .copyR {
@@ -449,7 +452,7 @@ button.bg-dark:hover {
     }
     .logofooter {
         top: -20px;
-        left: -50px;
+        left: -25px;
     }
     .copyR {
         top: 30px;
@@ -480,7 +483,7 @@ button.bg-dark:hover {
         position: sticky;
     }
     .logofooter {
-        top: -25px;
+        top: -55px;
         left: -90px;
     }
     .copyR {
@@ -523,10 +526,6 @@ button.bg-dark:hover {
     }
     .contentKursPic {
         padding: 2rem 5rem 0rem 5rem !important;
-    }
-    .logofooter {
-        top: -23px;
-        left: -90px;
     }
     .copyR {
         top: 30px;
@@ -598,6 +597,10 @@ button.bg-dark:hover {
         top: 100%;
         position: sticky;
     }
+    .logofooter {
+        width: 15em;
+
+    }
     #intro {
         background-position: 55% 67%;
     }
@@ -630,8 +633,8 @@ button.bg-dark:hover {
         margin-left: 5rem;
     }
     .logofooter {
-        top: -25px;
-        left: -105px;
+        width: 17em;
+
     }
     .sectionImgBig {
         padding: 0.5rem 10rem 3rem 10rem !important;
