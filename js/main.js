@@ -1,6 +1,6 @@
 // ScrollAnimation at the beginning
 const sr = ScrollReveal({
-    distance: '60px',
+    distance: '80px',
     duration: 2800,
     // reset: true,
 })
@@ -8,7 +8,7 @@ const sr = ScrollReveal({
 
 
 sr.reveal(`.uberContent, 
-.angebotKurse`,
+.webAngebot, .printAngebot`,
 {
     origin: 'left',
 })
