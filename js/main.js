@@ -5,9 +5,10 @@ const sr = ScrollReveal({
     // reset: true,
 })
 
+
+
 sr.reveal(`.uberContent, 
-        .webAngebot,
-        .printAngebot`,
+.angebotKurse`,
 {
     origin: 'left',
 })
