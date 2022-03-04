@@ -86,11 +86,11 @@ body::-webkit-scrollbar-thumb {
 }
 
 .logo {
-    height: 7em;
-    width: 7em;
+    height: 2em;
+    width: 2em;
     position: absolute;
-    left: -34px;
-    top: -296px;
+    left: 20px;
+    top: -237px;
     transition: 0.4s;
     margin-top: 10em;
 }
@@ -124,10 +124,10 @@ body::-webkit-scrollbar-thumb {
 
 .logofooter {
     position: relative;
-    top: -140px;
-    left: 80px;
-    width: 12em;
-    height: 12em;
+    top: -80px;
+    left: 145px;
+    width: 3em;
+    height: 3em;
 
 }
 
@@ -424,9 +424,9 @@ button.bg-dark:hover {
         left: 50%;
     }
     .logo {
-        height: 14em;
-        width: 14em;
-        top: -275px;
+        height: 4em;
+        width: 4em;
+        top: -160px;
     }
     .logo1 {
         height: 14em;
@@ -451,8 +451,8 @@ button.bg-dark:hover {
         left: -88px !important;
     }
     .logofooter {
-        top: -20px;
-        left: -25px;
+        top: 60px;
+        left: 40px;
     }
     .copyR {
         top: 30px;
@@ -483,8 +483,8 @@ button.bg-dark:hover {
         position: sticky;
     }
     .logofooter {
-        top: -55px;
-        left: -90px;
+        left: 0px;
+        top: 15px;
     }
     .copyR {
         top: 30px;
@@ -547,9 +547,10 @@ button.bg-dark:hover {
         margin-top: 4em;
     }
     .logo {
-        height: 20em;
-        width: 20em;
-        top: -275px !important;
+        height: 6em;
+        width: 6em;
+        top: -150px !important;
+        left: 50px;
     }
     .logo1 {
         top: -120px;
@@ -597,6 +598,11 @@ button.bg-dark:hover {
 }
 
 @media only screen and (min-width: 1900px) {
+    .logo {
+        height: 7em;
+        width: 7em;
+        left: 130px;
+    }
     .uberContent{
         margin-top: 0em;
     }
