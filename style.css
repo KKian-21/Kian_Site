@@ -509,6 +509,9 @@ button.bg-dark:hover {
     .typed {
         font-size: 240%;
     }
+    .uberContent{
+        margin-top: 10em;
+    }
     p {
         font-size: larger;
     }
@@ -540,6 +543,9 @@ button.bg-dark:hover {
 }
 
 @media only screen and (min-width: 1400px) {
+    .uberContent{
+        margin-top: 4em;
+    }
     .logo {
         height: 20em;
         width: 20em;
@@ -591,6 +597,9 @@ button.bg-dark:hover {
 }
 
 @media only screen and (min-width: 1900px) {
+    .uberContent{
+        margin-top: 0em;
+    }
     .typed {
         font-size: 260%;
         margin-left: 2rem;
