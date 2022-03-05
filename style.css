@@ -618,10 +618,6 @@ button.bg-dark:hover {
         top: 100%;
         position: sticky;
     }
-    .logofooter {
-        width: 15em;
-
-    }
     #intro {
         background-position: 55% 67%;
     }
@@ -654,8 +650,8 @@ button.bg-dark:hover {
         margin-left: 5rem;
     }
     .logofooter {
-        width: 17em;
-
+        width: 4em;
+        height: 4em;
     }
     .sectionImgBig {
         padding: 0.5rem 10rem 3rem 10rem !important;
